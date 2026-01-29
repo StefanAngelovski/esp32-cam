@@ -1,0 +1,26 @@
+Command: cmake -G Ninja -B /home/phys/Projects/esp32-cam/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/phys/.espressif/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/phys/Projects/esp32-cam
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Error at /home/phys/esp/esp-idf/tools/cmake/component.cmake:319 (message):
+  Include directory '/home/phys/Projects/esp32-cam/main/include' is not a
+  directory.
+Call Stack (most recent call first):
+  /home/phys/esp/esp-idf/tools/cmake/component.cmake:494 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
