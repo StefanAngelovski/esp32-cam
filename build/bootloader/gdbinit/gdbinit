@@ -1,2 +1,0 @@
-source /home/phys/Projects/esp32-cam/build/bootloader/gdbinit/symbols
-source /home/phys/Projects/esp32-cam/build/bootloader/gdbinit/connect
